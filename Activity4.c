@@ -79,9 +79,9 @@ void main()
             printf("Enter value for b: ");
             scanf("%d", &b);
 
-            float quotient = a / b;
+            quotient = a / b;
 
-            printf("The quotient of %.2f and %.2f is %.2f", a, b, quotient);
+            printf("The quotient of %d and %d is %.2f", a, b, quotient);
             getch();
 
             break;
